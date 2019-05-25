@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef850f62-8fe1-4b0e-aed6-aa68ced5e885" name="Default Changelist" comment="" />
+    <list default="true" id="ef850f62-8fe1-4b0e-aed6-aa68ced5e885" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ankur.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/address_scraper/nn_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/address_scraper/nn_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/address_scraper/page_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/address_scraper/scraper_with_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/__old/addressextractor/dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/__old/addressextractor/dataloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/address_scraper/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/address_scraper/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/address_scraper/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/address_scraper/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/address_scraper/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/address_scraper/encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/address_scraper/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/address_scraper/neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/address_scraper/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/address_scraper/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dictionaries/dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/encodings/addresses_US_CA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/encodings/addresses_US_TX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/encodings/single_address.csv" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/address_scraper/dictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="327">
+              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -22,20 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/address_scraper/scraper.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/address_scraper/scraper_with_text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+            <state relative-caret-position="114">
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/address_scraper/data.py">
+        <entry file="file://$PROJECT_DIR$/code/address_scraper/page_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="164">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -44,39 +67,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/address_scraper/encoding.py">
+        <entry file="file://$PROJECT_DIR$/code/address_scraper/nn_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/encodings/addresses_US_CA.csv">
+        <entry file="file://$PROJECT_DIR$/code/address_scraper/nn_predictor.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/address_scraper/neural_network.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/address_scraper/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+            <state relative-caret-position="205">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/playground.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="24" column="19" selection-start-line="11" selection-end-line="24" selection-end-column="19" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/encodings/single_address.csv">
+        <entry file="file://$PROJECT_DIR$/code/address_scraper/neural_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="1242">
+              <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/address_scraper/encoding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,31 +136,47 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dense_1_input</find>
-      <find>num_classes</find>
-      <find>self._buffer_decode(data, self.errors, final</find>
-      <find>utf</find>
-      <find>reshape</find>
-      <find>12</find>
-      <find>a</find>
       <find>23</find>
-      <find>print</find>
       <find>np.array</find>
+      <find>Myland</find>
+      <find>myland</find>
+      <find>Thanos vinyl figure</find>
+      <find>try</find>
+      <find>print(</find>
+      <find>WY</find>
+      <find>403 W 2nd Street</find>
+      <find>Austin, TX 78701</find>
+      <find>Austin,</find>
+      <find>Austin</find>
+      <find>4631 Airport Blvd</find>
+      <find>4631 Airp</find>
+      <find>403</find>
+      <find>b'</find>
+      <find>h</find>
+      <find>NOT IN</find>
+      <find>3</find>
+      <find>'2'</find>
+      <find>other</find>
+      <find>start</find>
+      <find>Fairhope</find>
+      <find>Fair</find>
+      <find>pelham</find>
+      <find>Alaba</find>
+      <find>end</find>
+      <find>Pelham</find>
+      <find>alabama 35</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/code/onehot.py" />
-        <option value="$PROJECT_DIR$/code/sklearn/firsttry.py" />
-        <option value="$PROJECT_DIR$/code/firstnet.py" />
-        <option value="$PROJECT_DIR$/code/webpage_classification.py" />
-        <option value="$PROJECT_DIR$/code/classification.py" />
-        <option value="$PROJECT_DIR$/code/deeplearnpython.py" />
-        <option value="$PROJECT_DIR$/code/deeplearncatsdogs.py" />
         <option value="$PROJECT_DIR$/code/keraspythontute3.py" />
         <option value="$PROJECT_DIR$/code/kerastensorboardtute4.py" />
         <option value="$PROJECT_DIR$/code/kerastute5-optimisingmodels.py" />
@@ -141,7 +201,6 @@
         <option value="$PROJECT_DIR$/code/simplestnetwork.py" />
         <option value="$PROJECT_DIR$/code/address_scraper/dataprocessor.py" />
         <option value="$PROJECT_DIR$/data/encodings.py" />
-        <option value="$PROJECT_DIR$/code/__old/addressextractor/dataloader.py" />
         <option value="$PROJECT_DIR$/code/address_scraper/data_processor.py" />
         <option value="$PROJECT_DIR$/code/__old/addressextractor/PickleFile.py" />
         <option value="$PROJECT_DIR$/code/__old/addressextractor/PickleDict.py" />
@@ -155,21 +214,30 @@
         <option value="$PROJECT_DIR$/code/__old/addressextractor/create_address_datafile.py" />
         <option value="$PROJECT_DIR$/code/address_scraper/nueral_network.py" />
         <option value="$PROJECT_DIR$/code/__old/simplestnetwork.py" />
+        <option value="$PROJECT_DIR$/data/encodings/single_address.csv" />
+        <option value="$PROJECT_DIR$/code/__old/addressextractor/dataloader.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/scraper.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/html_to_text.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/data.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/encoding.py" />
         <option value="$PROJECT_DIR$/code/address_scraper/dictionary.py" />
         <option value="$PROJECT_DIR$/code/address_scraper/neural_network.py" />
-        <option value="$PROJECT_DIR$/data/encodings/single_address.csv" />
-        <option value="$PROJECT_DIR$/code/address_scraper/encoding.py" />
-        <option value="$PROJECT_DIR$/code/address_scraper/data.py" />
-        <option value="$PROJECT_DIR$/code/address_scraper/scraper.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/scraper_with_text.py" />
+        <option value="$PROJECT_DIR$/code/playground.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/page_data.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/trained_model.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/nn_predictor.py" />
+        <option value="$PROJECT_DIR$/code/address_scraper/nn_model.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="23" />
-    <option name="width" value="1349" />
-    <option name="height" value="834" />
+    <option name="x" value="255" />
+    <option name="y" value="1103" />
+    <option name="width" value="1440" />
+    <option name="height" value="835" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -244,50 +312,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scraper">
-    <configuration name="PickleDict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearningDeepLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/__old/addressextractor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/address_scraper/pickle_dict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="create_address_datafile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearningDeepLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/addressextractor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/addressextractor/create_address_datafile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="encoding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.playground">
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningDeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,7 +325,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/address_scraper/encoding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/address_scraper/data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,7 +334,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningDeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,7 +346,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/address_scraper/scraper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/address_scraper/neural_network.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,7 +355,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simplestnetwork" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="page_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningDeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/address_scraper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/address_scraper/page_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningDeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,7 +388,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/__old/simplestnetwork.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/playground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scraper_with_text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningDeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/address_scraper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/address_scraper/scraper_with_text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,11 +441,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scraper" />
-        <item itemvalue="Python.encoding" />
-        <item itemvalue="Python.PickleDict" />
-        <item itemvalue="Python.simplestnetwork" />
-        <item itemvalue="Python.create_address_datafile" />
+        <item itemvalue="Python.playground" />
+        <item itemvalue="Python.scraper_with_text" />
+        <item itemvalue="Python.page_data" />
+        <item itemvalue="Python.neural_network" />
+        <item itemvalue="Python.data" />
       </list>
     </recent_temporary>
   </component>
@@ -395,16 +463,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1015" extended-state="6" />
+    <frame x="255" y="1103" width="1440" height="835" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15335463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.2708559" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.41318977" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3969795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -418,83 +486,45 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20600858" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.95962316" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39838493" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/address_scraper/data.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/address_scraper/encoding.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/__old/textinput/read_from_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/__old/predictsong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/__old/ann_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/__old/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/__old/song.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/__old/address_data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="3003" column="7" selection-start-line="3003" selection-start-column="7" selection-end-line="3003" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/non-address_data.csv" />
-    <entry file="file://$PROJECT_DIR$/code/__old/mytry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/__old/addressextractor/page_slicer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/address_data_US_AL.csv" />
-    <entry file="file://$PROJECT_DIR$/data/address_data_US_AZ.csv" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/numpy/lib/npyio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3211">
-          <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/__old/address_data_US_MI.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -533,20 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/encodings.py" />
     <entry file="file://$PROJECT_DIR$/code/address_scraper/data_processor.py" />
-    <entry file="file://$PROJECT_DIR$/code/address_scraper/neural_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/dictionaries/first_dict.csv" />
-    <entry file="file://$PROJECT_DIR$/data/dictionaries/first_dict.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dictionaries/first_dict.pkl" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/pathlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -554,35 +572,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/dictionaries/second_dict.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dictionaries/third_dict.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dictionaries/second_dict.pkl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dictionaries/dict.pkl.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/address_scraper/persistance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/address_scraper/predictor.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dictionaries/second_dict.py" />
+    <entry file="file://$PROJECT_DIR$/code/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/data/dictionaries/third_dict.pkl" />
+    <entry file="file://$PROJECT_DIR$/data/dictionaries/second_dict.pkl" />
+    <entry file="file://$PROJECT_DIR$/data/dictionaries/dict.pkl.pkl" />
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/persistance.py" />
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/predictor.py" />
     <entry file="file://$PROJECT_DIR$/code/address_scraper/pickle_dict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -606,16 +602,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/encodings/addresses_US_WY.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4707">
-          <caret line="31076" selection-start-line="31076" selection-end-line="31076" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/encodings/addresses_other.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/encodings/addresses_US_WY.csv" />
+    <entry file="file://$PROJECT_DIR$/data/encodings/addresses_other.csv" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/numpy/lib/_datasource.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -623,23 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/encodings/addresses_US_TX.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/address_scraper/address_1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dictionaries/dict.pkl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/address_1" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -667,69 +639,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/encodings/addresses_US_CA.csv" />
+    <entry file="file://$PROJECT_DIR$/data/encodings/single_address.csv" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24255">
+          <caret line="1619" selection-start-line="1619" selection-end-line="1619" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/__old/addressextractor/dataloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1205">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="1215">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/address_scraper/encoding.py">
+    <entry file="file://$PROJECT_DIR$/data/encodings/texts.csv" />
+    <entry file="file://$PROJECT_DIR$/data/dictionaries/dict.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/encodings/addresses_US_TX.csv" />
+    <entry file="file://$PROJECT_DIR$/data/encodings/predict_addresses.csv" />
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="230">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/encodings/single_address.csv">
+    <entry file="file://$PROJECT_DIR$/data/encodings/address_predict_encodings.csv" />
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/html_to_text.py" />
+    <entry file="file://$PROJECT_DIR$/data/encodings/training_encodings.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="112">
+          <caret line="14602" selection-start-line="14602" selection-end-line="14602" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/encodings/addresses_US_CA.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/data/encodings/predict_encodings.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="361" selection-start-line="361" selection-end-line="361" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/encoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/address_scraper/dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="327">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/address_scraper/data.py">
+    <entry file="file://$PROJECT_DIR$/code/playground.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="344">
+          <caret line="24" column="19" selection-start-line="11" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/trained_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/page_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/address_scraper/scraper.py">
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/neural_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+        <state relative-caret-position="1242">
+          <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/address_scraper/neural_network.py">
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/nn_predictor.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/nn_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/address_scraper/scraper_with_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

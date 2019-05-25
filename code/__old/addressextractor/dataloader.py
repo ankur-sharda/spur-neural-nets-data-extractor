@@ -79,7 +79,7 @@ class DataLoader:
 
     def get_page_slices(self, url):
         r = requests.get(url)
-        soup = BeautifulSoup(r.content)
+        soup = s(r.content)
         content = soup.text
         content = content.replace("  ", "")
         # We assume here that x is an int and > 0

@@ -12,20 +12,15 @@ class Dictionary:
         self.file_stub = stub
 
     def build(self, input):
-        # ------------------------------------------------------
-        # options to choose for getting addresses
-        country_code = "US"
-        region_key = "WY"
-        # ------------------------------------------------------
         pd = PickleDict(self.file_stub)
         self.data = pd.read()
-
         for t in input:
-            # ----- need to set the 'skip'
-            self.populate_dictionary(self.list_substrings(t, 1))
+            substrings = self.list_substrings(t, 2)
+            self.populate_dictionary(substrings)
+        pd.save(self.data)
 
-        print("[Dictionary size] " + str(len(self.data)))
-
+    def save(self):
+        pd = PickleDict(self.file_stub)
         pd.save(self.data)
 
     def get(self):
@@ -58,9 +53,8 @@ class Dictionary:
         return addresses
 
     def populate_dictionary(self, substrings):
-        for str in substrings:
-            if not str in self.data:
-                size = len(self.data) + 1
-                self.data[str] = size
-
-
+        for text in substrings:
+            # text = "".join(str(text))  # do this in case the str is actually a list
+            if text not in self.data:
+                size = len(self.data) + 2
+                self.data[text] = size

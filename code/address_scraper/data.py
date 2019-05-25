@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup
 import requests
 import json
 
@@ -15,7 +16,6 @@ class Data:
             texts.append(a)
         return texts
 
-
     def load_addresses(self, country_code, region_key):
         texts = []
         url = "http://api.tuggl.com/addresses/list/" + country_code + "/" + region_key + "?pass=boohoo"
@@ -26,5 +26,3 @@ class Data:
             full_address = addr['fullAddress'].replace("\xa0", "")
             texts.append(full_address)
         return texts
-
-

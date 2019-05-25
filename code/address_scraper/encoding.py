@@ -11,7 +11,6 @@ class Encoding:
 
     def encode_list(self, dicny, data_obj):
         encodings = []
-
         for text in data_obj:
             start = text[0:20]
             length = len(text)
@@ -22,11 +21,19 @@ class Encoding:
             end_encoded.append(1)
             encodings.append(start_encoded)
             encodings.append(end_encoded)
-        self.save(encodings)
+        return encodings
+
+    def encode_texts(self, dicny, data_obj):
+        encodings = []
+        for text in data_obj:
+            text_encoded = self.encode_text(dicny, text)
+            text_encoded.append(2)
+            if len(text) == 20:
+                encodings.append(text_encoded)
+        return encodings
 
     def encode_list_backwards(self, dicny, data_obj):
         encodings = []
-
         for text in data_obj:
             start = text[0:20]
             length = len(text)
@@ -41,7 +48,6 @@ class Encoding:
 
     def encode_start(self, dicny, data_obj):
         encodings = []
-
         for text in data_obj:
             start = text[0:20]
             start_encoded = self.encode_text(dicny, start)
@@ -53,7 +59,9 @@ class Encoding:
         encodings = []
         substrings = self.list_substrings(text, 1)
         for str in substrings:
+            ## the zero is the default value
             val = dicny.data.get(str, 0)
+            # print(str, "##", val)
             encodings.append(val)
         return encodings
 
@@ -78,6 +86,4 @@ class Encoding:
             for key in dcny.data:
                 if e == dcny.data[key]:
                     decoding.append(key)
-
         return decoding
-
